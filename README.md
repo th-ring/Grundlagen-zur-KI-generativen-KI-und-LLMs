@@ -49,7 +49,7 @@ Um die technologische Basis dieser komplexen, modernen Modelle einzuordnen, ist 
 
 Abbildung 2 dargestellt, lässt sich das Feld der KI hierarchisch in verschiedene Teildisziplinen untergliedern. Ein zentraler Bestandteil ist das Machine Learning (ML), das Algorithmen umfasst, die Muster in Daten erkennen und aus diesen lernen, ohne für jede spezifische Aufgabe explizit programmiert zu werden. Eine tiefere Spezialisierung des ML stellt das sogenannte Deep Learning dar, welches auf dem Einsatz künstlicher neuronaler Netze basiert. Diese Netze sind in ihrer Struktur der Funktionsweise des menschlichen Gehirns nachempfunden. Sie bestehen aus mehreren Schichten von miteinander verbundenen Knotenpunkten (Neuronen), die in der Lage sind, hochkomplexe, nicht-lineare Zusammenhänge in großen Datenmengen zu verarbeiten und zu abstrahieren. (Urbach & Feulner, 2026)
 
-<img src="abbildungen/02_01_02_Hierarchische_Struktur_von_KI_in_Anlehnung_an_Urbach_Feulner_2026.png" alt="Hierarchische Struktur von KI (in Anlehnung an (Urbach & Feulner, 2026))" style="width:50%">
+<img src="abbildungen/02_01_02_Hierarchische_Struktur_von_KI_in_Anlehnung_an_Urbach_Feulner_2026.png" alt="Hierarchische Struktur von KI (in Anlehnung an (Urbach &amp; Feulner, 2026))" style="width:50%">
 
 
 Abbildung 2: Hierarchische Struktur von KI (in Anlehnung an (Urbach & Feulner, 2026))
@@ -67,7 +67,7 @@ Der eingegebene Text (Prompt) wird vom System nicht als Zeichenkette verarbeitet
 <img src="abbildungen/02_01_02_Abbildung_02.png" alt="Abbildung 02" style="width:50%">
 
 
-<img src="abbildungen/02_01_02_Beispiel_für_Tokenisierung_oben_mit_dazugehörigen_Token-IDs_unten_in_A.png" alt="Beispiel für Tokenisierung (oben) mit dazugehörigen Token-IDs (unten) (in Anlehnung an (Dr. Julien Siebert & Patricia Kelbert, 2024)(Ertel, 2025))" style="width:50%">
+<img src="abbildungen/02_01_02_Beispiel_für_Tokenisierung_oben_mit_dazugehörigen_Token-IDs_unten_in_A.png" alt="Beispiel für Tokenisierung (oben) mit dazugehörigen Token-IDs (unten) (in Anlehnung an (Dr. Julien Siebert &amp; Patricia Kelbert, 2024)(Ertel, 2025))" style="width:50%">
 
 
 Abbildung 3: Beispiel für Tokenisierung (oben) mit dazugehörigen Token-IDs (unten) (in Anlehnung an (Dr. Julien Siebert & Patricia Kelbert, 2024)(Ertel, 2025))
@@ -199,7 +199,7 @@ Die funktionale Überlegenheit agentischer Systeme gegenüber statischen Sprachm
 
 Ein zentrales Element dieser modularen Architektur, das die Grundlage für langanhaltende und kohärente Interaktionen bildet, ist das systematische Memory Handling. Im Gegensatz zur menschlichen Erinnerung basiert das "Gedächtnis" einer KI nicht auf organischem Speichern, sondern auf der strukturierten und iterativen Mitgabe der gesamten bisherigen Interaktionshistorie. Durch diese fortlaufende Integration des bisherigen Gesprächsverlaufs in neue Eingaben wird die Kontexterhaltung innerhalb des Dialogsystems sichergestellt. Der primäre Zweck dieses Mechanismus besteht darin, kohärente Dialoge aufrechtzuerhalten und die korrekte Interpretation von thematischen Folgefragen zu gewährleisten. Die technische Umsetzung dieses Konzeptes unterliegt jedoch limitierenden Restriktionen, die maßgebliche Implikationen für das Systemdesign nach sich ziehen. Die größte Herausforderung im Memory Management stellen die technologischen Token-Limits der Sprachmodelle dar, welche die maximal verarbeitbare Textmenge pro Anfrage strikt begrenzen. Bei besonders langen Unterhaltungen muss die mitgegebene Historie zwangsläufig gekürzt oder durch das System zusammengefasst werden, was potenziell zu einem schleichenden Informationsverlust führen kann. Um dieser Problematik zu begegnen, erfordert das Systemdesign von Seiten der Entwickler robuste Mechanismen, die sicherstellen, dass stets die relevantesten und aktuellsten Gesprächsinhalte priorisiert und dem Modell zur Verarbeitung übergeben werden. (Urbach & Feulner, 2026)
 
-<img src="abbildungen/02_01_04_High-Level_Module_eines_LLM-basierten_Agenten_in_Anlehnung_an_Kamath_e.png" alt="High-Level Module eines LLM-basierten Agenten (in Anlehnung an (Kamath et al., 2024) (Urbach & Feulner, 2026)" style="width:50%">
+<img src="abbildungen/02_01_04_High-Level_Module_eines_LLM-basierten_Agenten_in_Anlehnung_an_Kamath_e.png" alt="High-Level Module eines LLM-basierten Agenten (in Anlehnung an (Kamath et al., 2024) (Urbach &amp; Feulner, 2026)" style="width:50%">
 
 
 Abbildung 7: High-Level Module eines LLM-basierten Agenten (in Anlehnung an (Kamath et al., 2024) (Urbach & Feulner, 2026)
