@@ -32,7 +32,7 @@ Die rasanten Fortschritte im Bereich der künstlichen Intelligenz haben die Gren
 
 Die theoretischen Grundbausteine der künstlichen Intelligenz, insbesondere die Entwicklung von Algorithmen zur Lösung komplexer Aufgaben, wurden bereits in den frühen Jahrzehnten der KI-Forschung gelegt. Trotz dieser fundamentalen Fortschritte blieb die praktische Umsetzung und Anwendung dieser Konzepte zunächst limitiert, da die dafür erforderliche Rechenleistung fehlte. Erst mit dem kontinuierlichen Anstieg der verfügbaren Hardwarekapazitäten und der damit verbundenen exponentiellen Steigerung der Verarbeitungsleistung konnten viele der ursprünglich formulierten Ansätze und Methoden erfolgreich implementiert und weiterentwickelt werden. Die historische Entwicklung der künstlichen Intelligenz ist durch zahlreiche Meilensteine geprägt, die den Fortschritt in diesem Forschungsfeld maßgeblich beeinflusst haben. Die nachfolgende Abbildung 1 veranschaulicht einige zentrale Stationen der historischen Entwicklung im Bereich KI. Neben diesen bekannten Meilensteinen existieren jedoch eine Vielzahl weiterer bedeutender Fortschritte, die zur heutigen Leistungsfähigkeit und Anwendungsbreite der künstlichen Intelligenz beigetragen haben.
 
-![Historische Meilensteine der Künstlichen Intelligenz](abbildungen/02_01_01_Historische_Meilensteine_der_Künstlichen_Intelligenz.png)
+<img src="abbildungen/02_01_01_Historische_Meilensteine_der_Künstlichen_Intelligenz.png" alt="Historische Meilensteine der Künstlichen Intelligenz" style="width:50%">
 
 
 Abbildung 1: Historische Meilensteine der Künstlichen Intelligenz
@@ -49,7 +49,7 @@ Um die technologische Basis dieser komplexen, modernen Modelle einzuordnen, ist 
 
 Abbildung 2 dargestellt, lässt sich das Feld der KI hierarchisch in verschiedene Teildisziplinen untergliedern. Ein zentraler Bestandteil ist das Machine Learning (ML), das Algorithmen umfasst, die Muster in Daten erkennen und aus diesen lernen, ohne für jede spezifische Aufgabe explizit programmiert zu werden. Eine tiefere Spezialisierung des ML stellt das sogenannte Deep Learning dar, welches auf dem Einsatz künstlicher neuronaler Netze basiert. Diese Netze sind in ihrer Struktur der Funktionsweise des menschlichen Gehirns nachempfunden. Sie bestehen aus mehreren Schichten von miteinander verbundenen Knotenpunkten (Neuronen), die in der Lage sind, hochkomplexe, nicht-lineare Zusammenhänge in großen Datenmengen zu verarbeiten und zu abstrahieren. (Urbach & Feulner, 2026)
 
-![Hierarchische Struktur von KI (in Anlehnung an (Urbach & Feulner, 2026))](abbildungen/02_01_02_Hierarchische_Struktur_von_KI_in_Anlehnung_an_Urbach_Feulner_2026.png)
+<img src="abbildungen/02_01_02_Hierarchische_Struktur_von_KI_in_Anlehnung_an_Urbach_Feulner_2026.png" alt="Hierarchische Struktur von KI (in Anlehnung an (Urbach & Feulner, 2026))" style="width:50%">
 
 
 Abbildung 2: Hierarchische Struktur von KI (in Anlehnung an (Urbach & Feulner, 2026))
@@ -64,10 +64,10 @@ Nachfolgend werden verschiedene Aspekte behandelt, die für die Funktionalität 
 
 Der eingegebene Text (Prompt) wird vom System nicht als Zeichenkette verarbeitet, sondern mithilfe des Tokenizers in kleinere Informationseinheiten, sogenannte Tokens, zerlegt. Ein Token kann dabei ein ganzes Wort, eine Silbe oder ein einzelnes Zeichen sein (vgl. Abbildung 3). So kann das Wort „Straße“ beispielsweise in die beiden Tokens „Stra“ und „ße“ aufgeteilt werden. Jedes dieser Tokens wird dann als Zahl (Token-ID) dargestellt, sodass die Tokens in einem maschinenlesbaren Format vorliegen. Mehrfach auftretende Werte werden durch dieselbe Zahl codiert. Die beim Tokenizing verwendete Kodierung ist in der Regel nicht fix, sondern wird von einem Algorithmus generiert. Dieser analysiert die Häufigkeiten aller Zeichenketten in den Trainingsdaten und verwendet möglichst lange, aber häufige Zeichenketten als Tokens, wobei eine Maximalzahl verschiedener Tokens nicht überschritten werden darf. Diese werden anschließend individuell verarbeitet. (Kamath et al., 2024) (Urbach & Feulner, 2026) (Ertel, 2025)
 
-![Abbildung 02](abbildungen/02_01_02_Abbildung_02.png)
+<img src="abbildungen/02_01_02_Abbildung_02.png" alt="Abbildung 02" style="width:50%">
 
 
-![Beispiel für Tokenisierung (oben) mit dazugehörigen Token-IDs (unten) (in Anlehnung an (Dr. Julien Siebert & Patricia Kelbert, 2024)(Ertel, 2025))](abbildungen/02_01_02_Beispiel_für_Tokenisierung_oben_mit_dazugehörigen_Token-IDs_unten_in_A.png)
+<img src="abbildungen/02_01_02_Beispiel_für_Tokenisierung_oben_mit_dazugehörigen_Token-IDs_unten_in_A.png" alt="Beispiel für Tokenisierung (oben) mit dazugehörigen Token-IDs (unten) (in Anlehnung an (Dr. Julien Siebert & Patricia Kelbert, 2024)(Ertel, 2025))" style="width:50%">
 
 
 Abbildung 3: Beispiel für Tokenisierung (oben) mit dazugehörigen Token-IDs (unten) (in Anlehnung an (Dr. Julien Siebert & Patricia Kelbert, 2024)(Ertel, 2025))
@@ -76,7 +76,7 @@ Das Modell ist dadurch in der Lage, eine größere Bandbreite an Vokabular zu ve
 
 Die intuitive Erfassung solcher hochdimensionalen Vektorräume stellt eine Herausforderung dar, da das menschliche Vorstellungsvermögen auf drei Dimensionen beschränkt ist. Zur Veranschaulichung wird daher oft eine Dimensionsreduktion vorgenommen. Abbildung 4 zeigt exemplarisch, wie ein 7-dimensionaler Raum auf zwei Dimensionen projiziert wird, um die Beziehungen zwischen den Wörtern sichtbar zu machen.
 
-![Vereinfachte Darstellung von Embeddings anhand Dimensionsreduktion (Rozado, 2020)](abbildungen/02_01_02_Vereinfachte_Darstellung_von_Embeddings_anhand_Dimensionsreduktion_Roz.png)
+<img src="abbildungen/02_01_02_Vereinfachte_Darstellung_von_Embeddings_anhand_Dimensionsreduktion_Roz.png" alt="Vereinfachte Darstellung von Embeddings anhand Dimensionsreduktion (Rozado, 2020)" style="width:50%">
 
 
 Abbildung 4: Vereinfachte Darstellung von Embeddings anhand Dimensionsreduktion (Rozado, 2020)
@@ -112,7 +112,7 @@ Letztendlich wird nicht der Token direkt gewählt, sondern – analog zur Tokeni
 
 Der Inferenzprozess** **in autoregressiven Sprachmodellen mit Decoder-Architektur lässt sich als sequenzielle Pipeline beschreiben. Der zugrundeliegende Prozess ist in Abbildung 6 dargestellt und wird zusammenfassend einmal erläutert.
 
-![Inferenzprozess eines Decoder basierten LLMs (in Anlehnung an (Vaswani et al., 2017))](abbildungen/02_01_02_Inferenzprozess_eines_Decoder_basierten_LLMs_in_Anlehnung_an_Vaswani_e.png)
+<img src="abbildungen/02_01_02_Inferenzprozess_eines_Decoder_basierten_LLMs_in_Anlehnung_an_Vaswani_e.png" alt="Inferenzprozess eines Decoder basierten LLMs (in Anlehnung an (Vaswani et al., 2017))" style="width:50%">
 
 
 Abbildung 6: Inferenzprozess eines Decoder basierten LLMs (in Anlehnung an (Vaswani et al., 2017))
@@ -199,7 +199,7 @@ Die funktionale Überlegenheit agentischer Systeme gegenüber statischen Sprachm
 
 Ein zentrales Element dieser modularen Architektur, das die Grundlage für langanhaltende und kohärente Interaktionen bildet, ist das systematische Memory Handling. Im Gegensatz zur menschlichen Erinnerung basiert das "Gedächtnis" einer KI nicht auf organischem Speichern, sondern auf der strukturierten und iterativen Mitgabe der gesamten bisherigen Interaktionshistorie. Durch diese fortlaufende Integration des bisherigen Gesprächsverlaufs in neue Eingaben wird die Kontexterhaltung innerhalb des Dialogsystems sichergestellt. Der primäre Zweck dieses Mechanismus besteht darin, kohärente Dialoge aufrechtzuerhalten und die korrekte Interpretation von thematischen Folgefragen zu gewährleisten. Die technische Umsetzung dieses Konzeptes unterliegt jedoch limitierenden Restriktionen, die maßgebliche Implikationen für das Systemdesign nach sich ziehen. Die größte Herausforderung im Memory Management stellen die technologischen Token-Limits der Sprachmodelle dar, welche die maximal verarbeitbare Textmenge pro Anfrage strikt begrenzen. Bei besonders langen Unterhaltungen muss die mitgegebene Historie zwangsläufig gekürzt oder durch das System zusammengefasst werden, was potenziell zu einem schleichenden Informationsverlust führen kann. Um dieser Problematik zu begegnen, erfordert das Systemdesign von Seiten der Entwickler robuste Mechanismen, die sicherstellen, dass stets die relevantesten und aktuellsten Gesprächsinhalte priorisiert und dem Modell zur Verarbeitung übergeben werden. (Urbach & Feulner, 2026)
 
-![High-Level Module eines LLM-basierten Agenten (in Anlehnung an (Kamath et al., 2024) (Urbach & Feulner, 2026)](abbildungen/02_01_04_High-Level_Module_eines_LLM-basierten_Agenten_in_Anlehnung_an_Kamath_e.png)
+<img src="abbildungen/02_01_04_High-Level_Module_eines_LLM-basierten_Agenten_in_Anlehnung_an_Kamath_e.png" alt="High-Level Module eines LLM-basierten Agenten (in Anlehnung an (Kamath et al., 2024) (Urbach & Feulner, 2026)" style="width:50%">
 
 
 Abbildung 7: High-Level Module eines LLM-basierten Agenten (in Anlehnung an (Kamath et al., 2024) (Urbach & Feulner, 2026)
